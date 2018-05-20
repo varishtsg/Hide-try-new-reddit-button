@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hide try new reddit",
+  "version": "0.1.0",
+  "description": "Hide's the try new reddit button",
+
+  "content_scripts": [{
+    "css": ["style.css"],
+    "matches": ["https://www.reddit.com/*"]
+  }]
+
+}
